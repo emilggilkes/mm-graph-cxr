@@ -1,0 +1,71 @@
+attribute,freq,TP,FN,FP,precision,recall,f1-score
+nlp|yes|abnormal,1940,1805,135,183,0.9079476861167002,0.9304123711340206,0.9190427698574337
+nlp|yes|normal,1908,1695,213,159,0.9142394822006472,0.8883647798742138,0.9011164274322169
+anatomicalfinding|yes|lung opacity,1345,1231,114,74,0.9432950191570881,0.9152416356877323,0.9290566037735848
+anatomicalfinding|yes|atelectasis,501,475,26,23,0.9538152610441767,0.9481037924151696,0.950950950950951
+anatomicalfinding|yes|pleural effusion,345,317,28,34,0.9031339031339032,0.9188405797101449,0.9109195402298851
+anatomicalfinding|yes|vascular congestion,295,266,29,8,0.9708029197080292,0.9016949152542373,0.9349736379613357
+anatomicalfinding|yes|pulmonary edema/hazy opacity,279,264,15,30,0.8979591836734694,0.946236559139785,0.9214659685863874
+technicalassessment|yes|low lung volumes,231,219,12,9,0.9605263157894737,0.948051948051948,0.9542483660130718
+disease|yes|pneumonia,215,200,15,22,0.9009009009009009,0.9302325581395349,0.9153318077803203
+tubesandlines|yes|enteric tube,168,150,18,3,0.9803921568627451,0.8928571428571429,0.9345794392523364
+tubesandlines|yes|endotracheal tube,149,145,4,0,1.0,0.9731543624161074,0.9863945578231292
+anatomicalfinding|yes|enlarged cardiac silhouette,121,116,5,3,0.9747899159663865,0.9586776859504132,0.9666666666666667
+disease|yes|aspiration,108,105,3,10,0.9130434782608695,0.9722222222222222,0.9417040358744394
+anatomicalfinding|yes|linear/patchy atelectasis,96,96,0,1,0.9896907216494846,1.0,0.9948186528497409
+anatomicalfinding|yes|lung lesion,92,89,3,21,0.8090909090909091,0.967391304347826,0.8811881188118811
+anatomicalfinding|yes|vascular calcification,87,79,8,3,0.9634146341463414,0.9080459770114943,0.9349112426035503
+anatomicalfinding|yes|tortuous aorta,85,80,5,0,1.0,0.9411764705882353,0.9696969696969697
+anatomicalfinding|yes|pleural/parenchymal scarring,75,72,3,6,0.9230769230769231,0.96,0.9411764705882353
+anatomicalfinding|yes|consolidation,71,64,7,10,0.8648648648648649,0.9014084507042254,0.8827586206896552
+disease|yes|fluid overload/heart failure,61,49,12,0,1.0,0.8032786885245902,0.8909090909090909
+anatomicalfinding|yes|mass/nodule (not otherwise specified),61,60,1,16,0.7894736842105263,0.9836065573770492,0.8759124087591241
+disease|yes|copd/emphysema,60,58,2,2,0.9666666666666667,0.9666666666666667,0.9666666666666667
+anatomicalfinding|yes|costophrenic angle blunting,56,56,0,0,1.0,1.0,1.0
+tubesandlines|yes|ij line,52,47,5,2,0.9591836734693877,0.9038461538461539,0.9306930693069307
+anatomicalfinding|yes|hyperaeration,51,51,0,1,0.9807692307692307,1.0,0.9902912621359222
+device|yes|cardiac pacer and wires,49,48,1,2,0.96,0.9795918367346939,0.9696969696969697
+anatomicalfinding|yes|hernia,40,40,0,1,0.975609756097561,1.0,0.9876543209876543
+anatomicalfinding|yes|airspace opacity,38,38,0,1,0.9743589743589743,1.0,0.9870129870129869
+anatomicalfinding|yes|enlarged hilum,34,32,2,5,0.8648648648648649,0.9411764705882353,0.9014084507042254
+anatomicalfinding|yes|lobar/segmental collapse,34,30,4,3,0.9090909090909091,0.8823529411764706,0.8955223880597014
+anatomicalfinding|yes|spinal degenerative changes,28,28,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|calcified nodule,28,23,5,4,0.8518518518518519,0.8214285714285714,0.8363636363636364
+anatomicalfinding|yes|rib fracture,25,24,1,3,0.8888888888888888,0.96,0.923076923076923
+anatomicalfinding|yes|superior mediastinal mass/enlargement,25,15,10,0,1.0,0.6,0.7499999999999999
+disease|yes|granulomatous disease,24,21,3,2,0.9130434782608695,0.875,0.8936170212765957
+anatomicalfinding|yes|shoulder osteoarthritis,24,24,0,7,0.7741935483870968,1.0,0.8727272727272727
+tubesandlines|yes|picc,24,23,1,6,0.7931034482758621,0.9583333333333334,0.8679245283018867
+anatomicalfinding|yes|infiltration,22,20,2,0,1.0,0.9090909090909091,0.9523809523809523
+anatomicalfinding|yes|elevated hemidiaphragm,20,20,0,1,0.9523809523809523,1.0,0.975609756097561
+anatomicalfinding|yes|mediastinal widening,20,17,3,4,0.8095238095238095,0.85,0.8292682926829269
+anatomicalfinding|yes|pneumothorax,19,17,2,6,0.7391304347826086,0.8947368421052632,0.8095238095238095
+anatomicalfinding|yes|vascular redistribution,18,18,0,0,1.0,1.0,1.0
+disease|yes|alveolar hemorrhage,18,16,2,1,0.9411764705882353,0.8888888888888888,0.9142857142857143
+technicalassessment|yes|breast/nipple shadows,18,18,0,4,0.8181818181818182,1.0,0.9
+tubesandlines|yes|chest tube,18,18,0,4,0.8181818181818182,1.0,0.9
+technicalassessment|yes|rotated,18,18,0,4,0.8181818181818182,1.0,0.9
+tubesandlines|yes|chest port,16,16,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|sub-diaphragmatic air,15,15,0,0,1.0,1.0,1.0
+tubesandlines|yes|subclavian line,15,14,1,1,0.9333333333333333,0.9333333333333333,0.9333333333333333
+disease|yes|lung cancer,14,11,3,1,0.9166666666666666,0.7857142857142857,0.8461538461538461
+anatomicalfinding|yes|increased reticular markings/ild pattern,14,10,4,0,1.0,0.7142857142857143,0.8333333333333333
+anatomicalfinding|yes|multiple masses/nodules,12,9,3,0,1.0,0.75,0.8571428571428571
+device|yes|cabg grafts,12,8,4,0,1.0,0.6666666666666666,0.8
+disease|yes|interstitial lung disease,10,10,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|mediastinal displacement,10,8,2,0,1.0,0.8,0.888888888888889
+tubesandlines|yes|intra-aortic balloon pump,9,9,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|scoliosis,9,9,0,1,0.9,1.0,0.9473684210526316
+anatomicalfinding|yes|clavicle fracture,7,7,0,1,0.875,1.0,0.9333333333333333
+anatomicalfinding|yes|spinal fracture,7,6,1,1,0.8571428571428571,0.8571428571428571,0.8571428571428571
+disease|yes|goiter,6,6,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|subcutaneous air,6,6,0,1,0.8571428571428571,1.0,0.923076923076923
+tubesandlines|yes|swan-ganz catheter,6,5,1,0,1.0,0.8333333333333334,0.9090909090909091
+anatomicalfinding|yes|hydropneumothorax,3,3,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|pneumomediastinum,3,3,0,0,1.0,1.0,1.0
+tubesandlines|yes|tracheostomy tube,3,3,0,0,1.0,1.0,1.0
+anatomicalfinding|yes|bone lesion,2,1,1,2,0.3333333333333333,0.5,0.4
+anatomicalfinding|yes|cyst/bullae,1,1,0,0,1.0,1.0,1.0
+tubesandlines|yes|mediastinal drain,1,1,0,0,1.0,1.0,1.0
+disease|yes|pericardial effusion,1,1,0,0,1.0,1.0,1.0
+device|yes|prosthetic valve,1,1,0,0,1.0,1.0,1.0
